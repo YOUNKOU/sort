@@ -1,0 +1,8 @@
+sort1 uses: Bubble Sort
+How do you know?: The observation of sort1's execution times on different inputs reveals that it performs relatively slower on reversed order inputs compared to random or sorted inputs. This behavior aligns with the typical performance characteristics of the bubble sort algorithm. Bubble sort is known to have better performance on inputs that are already partially or fully sorted.
+
+sort2 uses: Merge Sort
+How do you know?: The consistent faster execution times of sort2 compared to sort1 and sort3, regardless of input size or order, indicate the usage of the merge sort algorithm. Merge sort has a better time complexity (O(n log n)) compared to bubble sort and selection sort (O(n^2)). This performance improvement suggests the implementation of merge sort in sort2.
+
+sort3 uses: Selection Sort
+How do you know?: The consistent slower execution times of sort3 compared to sort1 and sort2, regardless of input size or order, suggest the utilization of the selection sort algorithm. Selection sort has a higher time complexity (O(n^2)) compared to merge sort and bubble sort. This performance characteristic aligns with the observed behavior of sort3.
